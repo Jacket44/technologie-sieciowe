@@ -26,11 +26,11 @@ Warto zaznaczyć, że nieudane próby połączenia z serwerami tą metodą nie s
 
 ###### 1.2 Przykład użycia
 
-![logo](/img_1.png)
+![logo](img_1.png)
 
 Próba połączenia z serwerem strony Politechniki Wrocławskiej. Po wysłaniu pięciu pakietów, nie otrzymano żadnego. Może to oznaczać bład sieci, serwera DNS, obecność firewalla blokującego połączenie lub przeciążenie serwera na którym hostowana jest strona politechniki.
 
-![logo](/img_2.png)
+![logo](img_2.png)
 
 Próba połączenia z serwerem hostujący portal miasta Wrocław. Poniżej opis poszczególnych elementów komunikatu.
 
@@ -70,7 +70,7 @@ Okazuje się, że wielkość znaczenia nie ma wpływu na trasę. Ma natomiast ni
 
 Poniżej przedstawiony jest największy pakiet, który udało mi się przesłać:
 
-![logo](/img_5.png)
+![logo](img_5.png)
 
 ---
 
@@ -97,7 +97,7 @@ Narzędzie służące do prześledzenia trasy pakietu do konkretnego serwera. Dz
 
 ##### 2.1 Przykład użycia
 
-![logo](/img_3.png)
+![logo](img_3.png)
 
 Pierwsza linijka opisuje detale przeprowadzanego połączenia. Kolejne opisują połączenia z konkretnymi serwerami, oraz czas otrzymania odpowiedzi od trzech pakietów wysłanych do tego serwera, z tym samym TTL. Brak odpowiedzi na zadany pakiet jest oznaczany gwiazdką (*). W tym przykładzie, nic takiego jednak nie wystąpiło.
 
@@ -106,4 +106,4 @@ Pierwsza linijka opisuje detale przeprowadzanego połączenia. Kolejne opisują 
 
 Wireshark to popularne narzędzie do przechwytywania, monitorowania i dekodowania pakietów danych przesyłanych w sieci. Zapewnia ogrom narządzi do realizacji wymienionych celów, z których najważniejszym jest możliwość filtowania pakietów tak, aby wychwycić tylko te, które nas interesują. Osobiście, pozwoliło mi to kiedyś prześledzenie pakietów wysyłanych przez portal internetowy, który w tle korzystał z zasobów mojego komputera do kopania kryptowalut.
 
-![logo](/img_4.png)
+![logo](img_6.png)
